@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a PhD student in the [Hyadata Science Lab](http://www.hyadatalab.com/) in the Hebrew University of Jerusalem, under the supervision of Dafna Shahaf.
+I'm a PhD student in the [Hyadata Data Science Lab](http://www.hyadatalab.com/) in the Hebrew University of Jerusalem, under the supervision of Dafna Shahaf.
 
 Exploring the borderlands of human and artificial intelligence research, and how we can better bridge between them.
 
