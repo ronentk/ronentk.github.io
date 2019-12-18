@@ -3,8 +3,9 @@ title: "Y’all should read this! Identifying Plurality in Second-Person Persona
 collection: publications
 permalink: /publications/yall
 date: 2019-9-30
-venue: 'Workshop on Noisy User-generated Text (W-NUT), EMNLP workshop (to appear)'
-paperurl: ''
+venue: 'Workshop on Noisy User-generated Text (W-NUT), EMNLP workshop'
+paperurl: 'https://www.aclweb.org/anthology/D19-5549/'
 ---
 
-(to appear)
+[pdf](https://www.aclweb.org/anthology/D19-5549.pdf)
+[code](https://github.com/gabrielStanovsky/yall)
