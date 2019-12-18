@@ -8,4 +8,4 @@ date: 2019-10-01
 location: "Jerusalem, Israel"
 ---
 
-TA for self-paced data science course. Assisting non-CS students with data-science coursework and projects.
+ Assisting non-CS students with data science coursework and projects.
