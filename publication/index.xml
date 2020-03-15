@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on </title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ecological Semantics: Programming Environments for Situated Language Understanding</title>
+      <link>/publication/tamari-2020-ecological/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/tamari-2020-ecological/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Y′all should read this! Identifying Plurality in Second-Person Personal Pronouns in English Texts</title>
+      <link>/publication/stanovsky-tamari-2019-yall/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stanovsky-tamari-2019-yall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Playing by the Book: An Interactive Game Approach for Action Graph Extraction from Text</title>
+      <link>/publication/tamari-2018/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/tamari-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Fair Consensus Protocol for Transaction Ordering</title>
+      <link>/publication/asayag-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/asayag-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boosting Dilated Convolutional Networks with Mixed Tensor Decompositions</title>
+      <link>/publication/cohen-2018-boosting/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/cohen-2018-boosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensorial Mixture Models</title>
+      <link>/publication/sharir-2016-a/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/sharir-2016-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
