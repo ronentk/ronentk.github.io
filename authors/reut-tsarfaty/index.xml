@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reut Tsarfaty | Ronen Tamari</title>
+    <link>https://ronentk.github.io/authors/reut-tsarfaty/</link>
+      <atom:link href="https://ronentk.github.io/authors/reut-tsarfaty/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reut Tsarfaty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Reut Tsarfaty</title>
+      <link>https://ronentk.github.io/authors/reut-tsarfaty/</link>
+    </image>
+    
+    <item>
+      <title>Ecological Semantics: Programming Environments for Situated Language Understanding</title>
+      <link>https://ronentk.github.io/publication/tamari-2020-ecological/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/publication/tamari-2020-ecological/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
