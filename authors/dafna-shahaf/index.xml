@@ -5,12 +5,20 @@
     <link>https://ronentk.github.io/authors/dafna-shahaf/</link>
       <atom:link href="https://ronentk.github.io/authors/dafna-shahaf/index.xml" rel="self" type="application/rss+xml" />
     <description>Dafna Shahaf</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Dafna Shahaf</title>
       <link>https://ronentk.github.io/authors/dafna-shahaf/</link>
     </image>
+    
+    <item>
+      <title>Language (Re)modelling: Towards Embodied Language Understanding</title>
+      <link>https://ronentk.github.io/publication/tamari-2020-remodelling/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/publication/tamari-2020-remodelling/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Ecological Semantics: Programming Environments for Situated Language Understanding</title>
