@@ -14,9 +14,9 @@
     
     <item>
       <title>Language (Re)modelling: Towards Embodied Language Understanding (blog version)</title>
-      <link>https://ronentk.github.io/post/acl2020-pop-sci/</link>
+      <link>https://ronentk.github.io/post/acl2020-blog/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://ronentk.github.io/post/acl2020-pop-sci/</guid>
+      <guid>https://ronentk.github.io/post/acl2020-blog/</guid>
       <description>&lt;p&gt;Natural language processing (NLP) has become one of AI’s hottest research areas.  Deep learning algorithms drawing upon massive amounts of data and specialized hardware have achieved impressive empirical progress, powering applications from multilingual machine translation to wise-cracking chatbots.
 However, state-of-the-art NLP algorithms continue to struggle with tasks that schoolchildren find trivial. For example, consider the following story: “John dropped the wine glass on the coffee table and watched with dismay as it shattered into pieces.”&lt;/p&gt;
 &lt;p&gt;Most people would easily identify “it” as referring to the wine glass. However, current NLP algorithms find this deduction difficult; most algorithms we tested judged it likely that both the wine glass and the coffee table shattered into pieces. The situation becomes even more complex with sentences whose meaning is not literal, such as “John’s career hopes shattered.”&lt;/p&gt;
