@@ -17,7 +17,15 @@
       <link>https://ronentk.github.io/post/acl2020-blog/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://ronentk.github.io/post/acl2020-blog/</guid>
-      <description>&lt;p&gt;Natural language processing (NLP) has become one of AI’s hottest research areas.  Deep learning algorithms drawing upon massive amounts of data and specialized hardware have achieved impressive empirical progress, powering applications from multilingual machine translation to wise-cracking chatbots.
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;A SONG of the rolling earth, and of words according,&lt;/p&gt;
+&lt;p&gt;Were you thinking that those were the words, those upright lines?
+those curves, angles, dots?&lt;/p&gt;
+&lt;p&gt;No, those are not the words, the substantial words are in the
+ground and sea,&lt;/p&gt;
+&lt;p&gt;They are in the air, they are in you.&amp;rdquo; &amp;ndash; Walt Whitman&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Natural language processing (NLP) has become one of AI’s hottest research areas.  Deep learning algorithms drawing upon massive amounts of data and specialized hardware have achieved impressive empirical progress, powering applications from multilingual machine translation to wise-cracking chatbots.
 However, state-of-the-art NLP algorithms continue to struggle with tasks that schoolchildren find trivial. For example, consider the following story: “John dropped the wine glass on the coffee table and watched with dismay as it shattered into pieces.”&lt;/p&gt;
 &lt;p&gt;Most people would easily identify “it” as referring to the wine glass. However, current NLP algorithms find this deduction difficult; most algorithms we tested judged it likely that both the wine glass and the coffee table shattered into pieces. The situation becomes even more complex with sentences whose meaning is not literal, such as “John’s career hopes shattered.”&lt;/p&gt;
 &lt;p&gt;Perhaps the problem is the way that these algorithms learn about the world. Typically, NLP algorithms read terabytes of texts, extracting statistical patterns of language use from them. However, research in the Cognitive Sciences, and specifically 
@@ -26,7 +34,7 @@ However, state-of-the-art NLP algorithms continue to struggle with tasks that sc
 &lt;a href=&#34;https://www.aclweb.org/anthology/2020.acl-main.559/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Language (Re)modelling: Towards Embodied Language Understanding&lt;/a&gt; aims to integrate ideas from ECL into current NLP research. The work highlights two crucial cognitive capabilities missing in today’s NLP methods: mental simulation and metaphoric interpretation.&lt;/p&gt;
 &lt;p&gt;According to ECL’s 
 &lt;a href=&#34;http://www.cogsci.ucsd.edu/~bkbergen/papers/ESM.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Simulation Hypothesis&lt;/a&gt;, language users come to the text armed with vast world knowledge and a powerful imagination that facilitates conjuring detailed simulations of the world to achieve language understanding, such as knowing what happens when a wine glass drops. To simulate a more abstract concept like “career hopes”, ECL’s 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Conceptual_metaphor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Conceptual Metaphor Theory&lt;/a&gt; hypothesizes that using metaphor humans creatively construe more abstract concepts in terms of more concrete concepts. In other words, language users imagine concepts that are hard to simulate (career hopes) in terms of those that are easier to simulate. Construing career hopes as a physical object makes sense, since their “breaking” evokes the notion that they may be hard to recover.&lt;/p&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Conceptual_metaphor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Conceptual Metaphor Theory&lt;/a&gt; hypothesizes that, through metaphor, humans creatively construe more abstract concepts in terms of more concrete concepts. In other words, language users imagine concepts that are hard to simulate (career hopes) in terms of those that are easier to simulate. Construing career hopes as a physical object makes sense, since their “breaking” evokes the notion that they may be hard to recover.&lt;/p&gt;
 &lt;p&gt;Importantly, both mental simulation and metaphoric interpretation derive from interaction in the world rather than via static text. Accordingly, the paper argues for designing cognitively-inspired architectures, including diverse simulation environments through which the next generation of AI agents can begin learning the world knowledge necessary for more human-like language understanding.
 Ultimately, the deeply embodied nature of language implies that we needn’t worry about AI poets surpassing humans in writing skill anytime soon. Rather, it suggests that a tighter integration between contemporary cognitive science and NLP research is a promising approach towards AI assistants with a better understanding of human language.&lt;/p&gt;
 </description>
