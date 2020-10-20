@@ -17,10 +17,7 @@
       <link>https://ronentk.github.io/post/dbca/</link>
       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://ronentk.github.io/post/dbca/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Link repo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;background-compositional-generalizations&#34;&gt;Background: Compositional Generalizations&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;background-compositional-generalizations&#34;&gt;Background: Compositional Generalizations&lt;/h1&gt;
 &lt;p&gt;Compositional generalization, or models&#39; lack of it, is a hot topic in NLP right now. Compositional generalization (&lt;a href=&#34;http://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/proseminars/Proseminar13/ConnectionistArchitecture.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fodor &amp;amp; Pylysyn, 1988&lt;/a&gt;) refers to the ability to make &amp;ldquo;infinite use of finite means&amp;rdquo; and is a cornerstone of human intelligence in general, and in particular language use: humans can combine a finite set of discrete elements (such as words) in limitless ways to create new meanings. An oft-quoted &lt;a href=&#34;https://arxiv.org/abs/1711.00350&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;example&lt;/a&gt; is that once humans learn the meaning of a new verb like &amp;ldquo;dax&amp;rdquo;, we effortlessly generalize to new novel combinations with known words, like &amp;ldquo;dax twice&amp;rdquo; or &amp;ldquo;dax slowly&amp;rdquo;. While crucial for more robust and efficient NLP, compositional generalization remains extremely challenging for state-of-the-art (SOTA) models, with a &lt;a href=&#34;http://arxiv.org/abs/2007.08970&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;recent paper&lt;/a&gt; noting that despite the huge investment,&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;General ML architecture improvements yield incremental, if limited, improvements in compositional generalization settings.&lt;/p&gt;
