@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ronentk.github.io/post/acl2020-blog/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <loc>https://ronentk.github.io/post/dbca/</loc>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ronentk.github.io/post/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ronentk.github.io/</loc>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ronentk.github.io/post/acl2020-blog/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   

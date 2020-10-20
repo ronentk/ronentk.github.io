@@ -1,0 +1,1374 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 4.8.0 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Write-up of DBCA paper">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://ronentk.github.io/post/dbca/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137983753-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-137983753-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://ronentk.github.io/post/dbca/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Ronen Tamari">
+  <meta property="og:url" content="https://ronentk.github.io/post/dbca/">
+  <meta property="og:title" content="Distribution Based Compositionality Assessment (DBCA) write-up | Ronen Tamari">
+  <meta property="og:description" content="Write-up of DBCA paper"><meta property="og:image" content="https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-10-19T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-10-19T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ronentk.github.io/post/dbca/"
+  },
+  "headline": "Distribution Based Compositionality Assessment (DBCA) write-up",
+  
+  "datePublished": "2020-10-19T00:00:00Z",
+  "dateModified": "2020-10-19T00:00:00Z",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ronen Tamari",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Write-up of DBCA paper"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Distribution Based Compositionality Assessment (DBCA) write-up | Ronen Tamari</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+    <script>window.wcDarkLightEnabled = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Ronen Tamari</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Ronen Tamari</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#community"><span>Community</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Distribution Based Compositionality Assessment (DBCA) write-up</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 19, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    10 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <ul>
+<li><input disabled="" type="checkbox"> Link repo</li>
+</ul>
+<h1 id="background-compositional-generalizations">Background: Compositional Generalizations</h1>
+<p>Compositional generalization, or models' lack of it, is a hot topic in NLP right now. Compositional generalization (<a href="http://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/proseminars/Proseminar13/ConnectionistArchitecture.pdf" target="_blank" rel="noopener">Fodor &amp; Pylysyn, 1988</a>) refers to the ability to make &ldquo;infinite use of finite means&rdquo; and is a cornerstone of human intelligence in general, and in particular language use: humans can combine a finite set of discrete elements (such as words) in limitless ways to create new meanings. An oft-quoted <a href="https://arxiv.org/abs/1711.00350" target="_blank" rel="noopener">example</a> is that once humans learn the meaning of a new verb like &ldquo;dax&rdquo;, we effortlessly generalize to new novel combinations with known words, like &ldquo;dax twice&rdquo; or &ldquo;dax slowly&rdquo;. While crucial for more robust and efficient NLP, compositional generalization remains extremely challenging for state-of-the-art (SOTA) models, with a <a href="http://arxiv.org/abs/2007.08970" target="_blank" rel="noopener">recent paper</a> noting that despite the huge investment,</p>
+<blockquote>
+<p>General ML architecture improvements yield incremental, if limited, improvements in compositional generalization settings.</p>
+</blockquote>
+<p>How to even measure the ability for compositional generalization? Like so many concepts in natural language, intuitive explanations of compositional generalization are easy, but more precise definitions can be notoriously elusive. Many works (e.g., <a href="https://arxiv.org/abs/1711.00350" target="_blank" rel="noopener">SCAN</a>, <a href="https://arxiv.org/abs/2003.05161" target="_blank" rel="noopener">gSCAN</a>) adopt a simple approach of holding out some set of test samples which differ systematically from those seen in training. For example, showing a model what it means to &ldquo;walk while spinning&rdquo; and &ldquo;push the circle&rdquo; at train time, and then testing it on &ldquo;push the circle while spinning&rdquo;. While such approaches indeed test for compositional generalization, a limitation is that the holding out classes of samples is somewhat heuristic and hand-engineered, and doesn&rsquo;t yield a precise, numeric or canonical quantification of train-test differences.</p>
+<p>Fortunately, a cool <a href="https://openreview.net/forum?id=SygcCnNKwr" target="_blank" rel="noopener">paper</a> presented this year at ICLR2020 makes some nice progress on this question. The paper, out of Google Brain, is called <em>&ldquo;Measuring Compositional Generalization: A Comprehensive Method on Realistic Data&rdquo;</em>. They propose a method, Distribution Based Compositionality Assessment (DBCA), which allows constructing and quantifying the compositional-generalization gap between train and test splits.</p>
+<p>I really liked the paper and indeed found it comprehensive (including a 20+ page appendix), so this is my attempt at a walk-through and accompaniment to my (un-offical) <a href="https://github.com/ronentk/dbca-splitter" target="_blank" rel="noopener">re-implementation</a>.</p>
+<p>Turn the dial on the train-test compositionality gap, and watch model performance drop! If it doesn&rsquo;t: either you have a breakthrough, or I have a bug 🙃.</p>
+<p><img src="media/dbca.gif" alt="media/dbca.gif"></p>
+<h1 id="dbca-in-a-nutshell">DBCA in a nutshell</h1>
+<p>DBCA provides a method of systematically generating datasets with train and test splits diverging in a controllable and measurable way. The paper applies this method to generate a compositional question answering dataset called CFQ (Compositional Freebase Questions). They show that turning the divergence dial strongly corresponds with a decrease in model accuracy, while remaining compositional and human interpretable; A human who could correctly answer the training set examples of “Who directed Inception?” and “Did Christopher Nolan produce Goldfinger?” would have no trouble testing on questions such as “Did Christopher Nolan direct Goldfinger?” and &ldquo;Who produced Inception?&rdquo;, but current SOTA models fail dramatically in such settings.</p>
+<p>As the name implies, the magic happens by carefully controlling two distribution measures between train and test splits:</p>
+<ul>
+<li>
+<p>Atom Divergence: we&rsquo;ll get formal later, but for now we can intuitively think of atoms as the elementary building blocks comprising each sample:  predicates liked &ldquo;directed&rdquo;, or entities like &ldquo;Inception&rdquo;. We want the atoms to be distributed roughly the same across train and test distributions→low atom divergence, as shown in Fig. 6 of the paper</p>
+<p><img src="media/fig6a.png" alt="media/fig6a.png"></p>
+</li>
+<li>
+<p>Compound Divergence: Compounds represent different ways of composing atoms. “Did Christopher Nolan direct Goldfinger?” and &ldquo;Who produced Inception?&rdquo; are novel compounds over the same atoms from the training set (&ldquo;directed&rdquo;, &ldquo;Inception&rdquo;, etc). To measure compositionality, we want to create test sets with novel compounds not seen at train time:</p>
+<p><img src="media/fig6c.png" alt="media/fig6c.png"></p>
+</li>
+</ul>
+<h1 id="definitions">Definitions</h1>
+<h2 id="sample-definition">Sample Definition</h2>
+<p>To meaningfully measure how samples differ from each other, let&rsquo;s first understand how a sample is defined and generated in DBCA. Each sample is defined to be a directed a-cyclic graph (DAG), where nodes (or atoms) correspond to rule applications. Edges correspond to dependencies between rule applications.</p>
+<p><strong>Nodes:</strong> In CFQ, the paper mentions 4 kinds of rules used in question generation: grammar (211), inference (17), resolution (21) and knowledge (194). This yields a total of $N_{A}=443$ types of nodes, as can be seen in the histogram in Fig. 6 (above). Feel free to check out the paper for specific rule examples: this post is less about the particulars of CFQ and more the general workings of DBCA.</p>
+<p><strong>Edges:</strong> DAG edges represent dependencies among the rules (nodes), an edge $A \to B$ means that rule $B$ strictly depends on rule $A$ in the sense that the generator cannot apply rule $B$ before applying rule $A$.</p>
+<p>Comparing graphs is known to be hard (graph isomorphism problem), therefore the DAG is normalized to ensure that a certain rule combination is represented using the same DAG across all the examples where it occurs. This is important for meaningfully comparing measures such as divergence.</p>
+<h2 id="distributions-and-divergences">Distributions and Divergences</h2>
+<h3 id="atom-distribution">Atom Distribution</h3>
+<p>For a sample set $T$, the <em>atom distribution,</em>  $\mathcal{F}_{A}\left(T\right)$, is defined to be the frequency distribution of atoms in the set.</p>
+<p>Here $T$ is a collection of DAGs, and atoms correspond to graph node types. To be more concrete, you can imagine $\mathcal{F}_{A} \left( T \right)$ being represented by a $N_{A}$ dimensional vector containing the normalized frequency counts of each atom (rule application) across $T$.</p>
+<p>As mentioned, DBCA creates training and test sets which share <strong>similar</strong> atom distributions.</p>
+<h3 id="compound-distribution">Compound Distribution</h3>
+<p>For a sample set $T$, the <em>compound distribution,</em> $\mathcal{F}_{C}\left(T\right)$, is defined to be the frequency distribution of compounds in the set.</p>
+<p>In contrast to the atom distribution, we want the compound distribution to be divergent across train and test sets, in order to test models' ability to recombine known atoms in novel ways. To represent $\mathcal{F}_{C}\left(T\right)$, you can similarly imagine a long vector containing the frequency counts of each <em>compound</em> in $T$. Here we run into a problem though, due to combinatorial complexity considerations- the number of all possible compounds (sub-graphs) is generally exponential in the size of $T$.</p>
+<p>Therefore, for practical purposes, the compound distribution requires a more involved definition. Specifically, some reasoned method for selecting and counting the most interesting compounds must be employed. In CFQ, the chosen method was comprised of two steps:</p>
+<ul>
+<li>
+<p>Candidate sub-graph generation. From $T$, first generate some large sub-set of candidate sub-graphs, called $\mathbb{G}$. The paper considered all sub-graphs with up to 5 nodes with
+branching factor up to 2, plus linear sub-graphs of all sizes (from personal correspondence with the authors).</p>
+</li>
+<li>
+<p>Candidate ranking: As written in sec. 2.1, the frequency of many of these sub-graphs will be highly correlated with their super-graphs, leading to the undesirable possibility of double counting sub-graphs. Accordingly, a further weighting step is carried out, by which a weight is computed for each $G\in\mathbb{G}$. This weight takes into account each occurrence of $G$ in the sample set, so the final weight (un-normalized probability) of $G$ is given by $W\left(G\right)=\sum_{R\in T}w\left(G,R\right)$. The weight per sample $R$, $w\left(G,R\right)$, is calculated by:</p>
+<p>$$w\left(G,R\right)=\max_{g\in\text{occ}\left(G,R\right)}\left(1-\max_{G':g\prec g'\in\text{occ}\left(G',R\right)}P\left(G'|G\right)\right)$$</p>
+<p>Let&rsquo;s unpack what&rsquo;s going on in this calculation (see also appendix L.4). $\text{occ}\left(G,R\right)$ is the set of all occurrences of sub-graph $G$ in sample $R$ (one sub-graph may appear multiple times). The $\prec$ denotes the strict sub-graph relation. $P\left(G'|G\right)$ is the empirical probability of $G'$ occurring as a super-graph of $G$ over the whole sample set $T$.  So for each such occurrence $g$, we look at all super-graphs of $g$ in $R$, and take the super-graph $G'$ which co-occurs most often with $G$ over $T$.</p>
+<p>Intuitively, $w\left(G,R\right)$ estimates how interesting $G$ is in the context of $R$. The higher the probability of some super-graph $G'$ co-occurring with $G$ across $T$, the less interesting $G$ is. So for each occurrence $g$, we find its weight by taking the complement of this maximum empirical probability. To calculate the weight of $G$, we take the weight of the maximally interesting occurrence (the outer max).</p>
+<p>This can be a little confusing, so let&rsquo;s make it more concrete with a small example. Consider a toy sample set $T=\left\{ R_{1},R_{2},R_{3}\right\}$ and some sample sub-graphs $\mathbb{G}=\left\{ G_{1},G_{2},&hellip;\right\}$  as depicted below.</p>
+<p><img src="media/dbca.png" alt="media/dbca.png"></p>
+<p>For this case, we would have $W\left(G_{1},R_{1}\right)=W\left(G_{1},R_{2}\right)=W\left(G_{1},R_{3}\right)=0$, since $G_1$ occurs only within the context of the super-graph $G_2$ across all samples. Conversely, $W\left(G_{2},R_{1}\right)=W\left(G_{2},R_{2}\right)=W\left(G_{2},R_{3}\right)=1$, since $G_2$ appears in a different context across $T$- there is no common super-graph of $G_2$ across all samples. These of course are extreme cases just to show the point of the weighting scheme, which</p>
+<blockquote>
+<p>ensures that when calculating compound divergence based on a weighted subset of compounds, the most representative compounds are taken into account, while avoiding double-counting compounds whose frequency of occurrence is already largely explainable by the frequency of occurrence of one of its super-compounds.</p>
+</blockquote>
+<p><strong>Compound weight:</strong> Given the weights as defined above, we can calculate the un-normalized weight of a compound $G$ as $W\left(G\right)=\sum_{R\in T}W\left(G,R\right)$. (assuming $W\left(G,R\right)=0$ if $G$ doesn&rsquo;t occur in $R$).</p>
+<p>In practice, in CFQ the graphs in $\mathbb{G}$ are then sorted according to descending $W$ and the top 100,000 are kept.</p>
+<p><strong>Probability of a compound:</strong> To get the normalized probability, we can simply divide by the total sum over all of the weights for all compounds in the sample set:</p>
+<p>$$P\left(G\right)=\frac{W\left(G\right)}{\sum_{G'\in T}W\left(G\right)}$$</p>
+<h3 id="divergence">Divergence</h3>
+<p>Now we have all of the definitions in place to define distance (or divergence) between our train and test splits. DBCA uses the Chernoff coefficient which yields a scalar between 0 and 1, given two distributions $P$ and $Q$: $C_{\alpha}\left(P\parallel Q\right)=\sum_{k}p_{k}^{\alpha}q_{k}^{1-\alpha}$. The more similar two distributions are, the closer this score will be to 1.</p>
+<p>We&rsquo;re measuring divergence though, so we take the complement to compute atom and compound divergences, as follows:
+$$\mathcal{D}_{A}\left(V\parallel W\right)=1 - C_{0.5}\left(\mathcal{F}_{A}\left(V\right)\parallel\mathcal{F}_{A}\left(W\right)\right)$$</p>
+<p>$$\mathcal{D}_{C}\left(V\parallel W\right)=1 - C_{0.1}\left(\mathcal{F}_{C}\left(V\right)\parallel\mathcal{F}_{C}\left(W\right)\right)$$</p>
+<p>Where $V$ and $W$ are train and test sets, respectively.</p>
+<p>What is $\alpha$ for? It serves to control the relative weight given to the train and test splits. As written in sec. 2.1 of the paper:</p>
+<blockquote>
+<p>For the atom divergence, we use α = 0.5, which &hellip; reflects the desire of making the atom distributions in train and test as similar as possible. For the compound divergence, we use α = 0.1, which reflects the intuition that it is more important whether a certain compound occurs in P (train) than whether the probabilities in P (train) and Q (test) match exactly.</p>
+</blockquote>
+<p>Let&rsquo;s make this more concrete with a toy example, assuming train and test distributions over just 4 compounds:</p>
+<pre><code class="language-python">p = np.array([0.001, 0.001, 1-0.002, 0])
+q = np.array([0.4,0.4,0,0.2])
+C_alpha_1 = np.dot(p**0.1, q**0.9) # -&gt; C_alpha_1 = 0.44
+C_alpha_5 = np.dot(p**0.5, q**0.5) # -&gt; C_alpha_5 = 0.04
+</code></pre>
+<p>So the mere existence in train set $P$ of even small counts of the first 2 compounds yields a high $C_{0.1}$-similarity with $Q$, where $C_{0.5}$ would only be high if the distributions were actually similar.</p>
+<p>Armed with these definitions, let&rsquo;s see how they can be used in practice to generate train and test sets with desired atom and compound divergences.</p>
+</li>
+</ul>
+<h1 id="generating-splits">Generating Splits</h1>
+<p>The DBCA paper presents a pretty straightforward way to generate splits with some desired atom and compound divergences. The basic idea is to start with some pool of samples $U$, pre-compute the weights $W\left(G,R\right)$ for all <a href="">considered sub-graphs</a>, and then iteratively add a new sample to the train/test sets such that $\mathcal{D}_{C}$ and $\mathcal{D}_{A}$ are closest to the desired values $d_a$, $d_c$ (while also maintaining the train/test set size ratio). The paper doesn&rsquo;t describe the greedy step explicitly, so in my implementation, in each iteration, I just add the sample minimizing the score function:</p>
+<p>$$S\left(V,W\right)=\left|\mathcal{D}_{C}\left(V\parallel W\right)-d_{c}\right|+\left|\mathcal{D}_{A}\left(V\parallel W\right)-d_{a}\right|$$</p>
+<p>Another issue is that since this is a greedy algorithm, the paper notes that random restarts may be required by removing samples at certain iterations. There are no further details on this, and I haven&rsquo;t yet incorporated it into my implementation.</p>
+<p>So let&rsquo;s look at the basic pseudocode to get a feel for the flow.</p>
+<h2 id="pseudocode">Pseudocode</h2>
+<p><strong>Inputs:</strong></p>
+<ul>
+<li>$U$: a pool of samples.</li>
+<li>$d_a$, $d_c$: Target atom and compound divergences (in [0,1]).</li>
+</ul>
+<p><strong>Algorithm:</strong></p>
+<ol>
+<li>Initialize empty sets $V$ (train) and $W$ (test).</li>
+<li>For each of the chosen candidate sub-graph types $G\in\mathbb{G}$ and for each sample $u$ in $U$, calculate $W\left(G,u\right)$, and retain the top $N$ sub-graphs (in terms of $W\left(G\right)$).</li>
+<li>Select random sample from $U$ and add to $V$. // initialization</li>
+<li>For  $i=1&hellip;(T-1)$:
+<ol>
+<li>
+<p>If $\text{is-train-step}\left(i\right)$:</p>
+<ul>
+<li>$u^*=\arg\min_{u\in U}\left(S\left(V^{(i-1)}\cup\left\{ u^*\right\} ,W^{(i-1)}\right)\right)$</li>
+<li>$V^{(i)}=V^{(i-1)}\cup \left\{ u^* \right\}, W^{(i)}=W^{(i-1)} $</li>
+</ul>
+<p>else: // test step</p>
+<ul>
+<li>$u^*=\arg\min_{u\in U}\left(S\left(V^{(i-1)} ,W^{(i-1)}\cup\left\{ u^* \right\}\right)\right)$</li>
+<li>$W^{(i)}=W^{(i-1)}\cup\left\{ u^*\right\},V^{(i)}=V^{(i-1)}$</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<h1 id="open-questions">Open Questions</h1>
+<ul>
+<li>DBCA is reliant on the ability to generate data in a controllable way, thus requiring some kind of simulator or grammar. An interesting question is how to incorporate it with approaches for more natural language, like crowdsourcing or NLG.</li>
+<li>The current approach addresses short question/answer pairs, I wonder how it would scale to larger and more complex graphs.</li>
+</ul>
+<h1 id="repo">Repo</h1>
+<p>Feel free to check out (and improve) my implementation at <a href="https://github.com/ronentk/dbca-splitter!">https://github.com/ronentk/dbca-splitter!</a></p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://ronentk.github.io/post/dbca/&amp;text=Distribution%20Based%20Compositionality%20Assessment%20%28DBCA%29%20write-up" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://ronentk.github.io/post/dbca/&amp;t=Distribution%20Based%20Compositionality%20Assessment%20%28DBCA%29%20write-up" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Distribution%20Based%20Compositionality%20Assessment%20%28DBCA%29%20write-up&amp;body=https://ronentk.github.io/post/dbca/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://ronentk.github.io/post/dbca/&amp;title=Distribution%20Based%20Compositionality%20Assessment%20%28DBCA%29%20write-up" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Distribution%20Based%20Compositionality%20Assessment%20%28DBCA%29%20write-up%20https://ronentk.github.io/post/dbca/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://ronentk.github.io/post/dbca/&amp;title=Distribution%20Based%20Compositionality%20Assessment%20%28DBCA%29%20write-up" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://ronentk.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hubab38ae5083c5050c8d34fe8088562b3_43526_270x270_fill_q90_lanczos_center.jpeg" alt=""></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://ronentk.github.io/"></a></h5>
+      <h6 class="card-subtitle">PhD Candidate</h6>
+      <p class="card-text">Interested in human and artificial intelligence research, and how we can better bridge between them.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:ronent%20at%20cs%20dot%20huji%20dot%20ac%20dot%20il" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/rtk254" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/ronen-tamari-11482189/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=AW26zZcAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ronentk" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Ronen_Tamari" target="_blank" rel="noopener">
+        <i class="ai ai-researchgate"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.4c2bca31150ce93c5a5e43b8a50f22fd.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
