@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ronentk.github.io/post/</loc>
-    <lastmod>2020-12-06T00:00:00+00:00</lastmod>
+    <loc>https://ronentk.github.io/talk/wordplay_2020/</loc>
+    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ronentk.github.io/talk/</loc>
+    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ronentk.github.io/</loc>
+    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ronentk.github.io/post/</loc>
     <lastmod>2020-12-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,12 +28,52 @@
   </url>
   
   <url>
-    <loc>https://ronentk.github.io/talk/naisys_1120/</loc>
-    <lastmod>2020-11-09T13:00:00+00:00</lastmod>
+    <loc>https://ronentk.github.io/publication_types/3/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ronentk.github.io/talk/</loc>
+    <loc>https://ronentk.github.io/authors/alan-ritter/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ronentk.github.io/authors/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ronentk.github.io/authors/fan-bai/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ronentk.github.io/authors/gabriel-stanovsky/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ronentk.github.io/publication/tamari-2020-process-wp/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ronentk.github.io/publication_types/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ronentk.github.io/publication/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ronentk.github.io/authors/ronen-tamari/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ronentk.github.io/talk/naisys_1120/</loc>
     <lastmod>2020-11-09T13:00:00+00:00</lastmod>
   </url>
   
@@ -44,11 +94,6 @@
   
   <url>
     <loc>https://ronentk.github.io/publication_types/1/</loc>
-    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/authors/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,21 +123,6 @@
   </url>
   
   <url>
-    <loc>https://ronentk.github.io/publication_types/</loc>
-    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/publication/</loc>
-    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/authors/ronen-tamari/</loc>
-    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ronentk.github.io/authors/tom-hope/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url>
@@ -104,11 +134,6 @@
   
   <url>
     <loc>https://ronentk.github.io/publication/tamari-2020-ecological/</loc>
-    <lastmod>2020-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/authors/gabriel-stanovsky/</loc>
     <lastmod>2020-03-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -210,11 +235,6 @@
   <url>
     <loc>https://ronentk.github.io/authors/r.-tamari/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/publication_types/2/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>

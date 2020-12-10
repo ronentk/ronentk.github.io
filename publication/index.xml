@@ -5,12 +5,20 @@
     <link>https://ronentk.github.io/publication/</link>
       <atom:link href="https://ronentk.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://ronentk.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Process-Level Representation of Scientific Protocols with a Text-Based Game Annotation Interface</title>
+      <link>https://ronentk.github.io/publication/tamari-2020-process-wp/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/publication/tamari-2020-process-wp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Language (Re)modelling: Towards Embodied Language Understanding</title>

@@ -5,12 +5,21 @@
     <link>https://ronentk.github.io/</link>
       <atom:link href="https://ronentk.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ronen Tamari</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 06 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Ronen Tamari</title>
       <link>https://ronentk.github.io/</link>
     </image>
+    
+    <item>
+      <title>Contributed Talk (WordPlay @ NeurIPS2020)</title>
+      <link>https://ronentk.github.io/talk/wordplay_2020/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/talk/wordplay_2020/</guid>
+      <description>&lt;p&gt;Link to video to be added after conference.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>🔍 Managing Research in Notion!</title>
@@ -19,6 +28,14 @@
       <guid>https://ronentk.github.io/post/notion/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.notion.so/ronhome/Managing-Research-in-Notion-9cb021e748884b2f8936ffb98cca58a3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;External link&lt;/a&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Process-Level Representation of Scientific Protocols with a Text-Based Game Annotation Interface</title>
+      <link>https://ronentk.github.io/publication/tamari-2020-process-wp/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/publication/tamari-2020-process-wp/</guid>
+      <description></description>
     </item>
     
     <item>

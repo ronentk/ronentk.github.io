@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fan Bai | Ronen Tamari</title>
+    <link>https://ronentk.github.io/authors/fan-bai/</link>
+      <atom:link href="https://ronentk.github.io/authors/fan-bai/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fan Bai</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Fan Bai</title>
+      <link>https://ronentk.github.io/authors/fan-bai/</link>
+    </image>
+    
+    <item>
+      <title>Process-Level Representation of Scientific Protocols with a Text-Based Game Annotation Interface</title>
+      <link>https://ronentk.github.io/publication/tamari-2020-process-wp/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/publication/tamari-2020-process-wp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
