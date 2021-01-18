@@ -5,12 +5,20 @@
     <link>https://ronentk.github.io/talk/</link>
       <atom:link href="https://ronentk.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://ronentk.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>Seminar Talk at AI2 - Aristo</title>
+      <link>https://ronentk.github.io/talk/aristo_0121/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/talk/aristo_0121/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Contributed Talk (WordPlay @ NeurIPS2020)</title>
