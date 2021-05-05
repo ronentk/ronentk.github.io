@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>🔮Dark Research</title>
+      <link>https://ronentk.github.io/post/dark_research/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/post/dark_research/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Dark research&amp;rdquo; refers to skills and knowledge which are often significant factors in successful research, yet are rarely covered by any formal graduate university curricula. For example, (1) how to find and formulate research questions, (2) how to manage references &amp;amp; project workflows and not drown in the oceans of information, (3) how to write and maintain reproducible research code and experiments, and (4) how to forge connections and collaborations with the wider scientific community. Here are some &lt;a href=&#34;https://ronentk.github.io/talk/huji_seminar_0521/dark_research_slides_0521.pdf&#34;&gt;slides&lt;/a&gt; from a recent university seminar talk, presenting some of my own experience and tools for grappling with these challenges, centering around Notion for (2) (and pretty much everything else also 🙃), Weights and Biases for (3) and Twitter + Hugo Academic web pages for (4).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Process-Level Representation of Scientific Protocols with Interactive Annotation</title>
       <link>https://ronentk.github.io/publication/tamari-2020-process-eacl/</link>
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
