@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tom Hope | Ronen Tamari</title>
-    <link>https://ronentk.github.io/authors/tom-hope/</link>
-      <atom:link href="https://ronentk.github.io/authors/tom-hope/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tom Hope</description>
+    <title>Hyeonsu Kang | Ronen Tamari</title>
+    <link>https://ronentk.github.io/authors/hyeonsu-kang/</link>
+      <atom:link href="https://ronentk.github.io/authors/hyeonsu-kang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hyeonsu Kang</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Tom Hope</title>
-      <link>https://ronentk.github.io/authors/tom-hope/</link>
+      <title>Hyeonsu Kang</title>
+      <link>https://ronentk.github.io/authors/hyeonsu-kang/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://ronentk.github.io/publication/scaling-creation-2021/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://ronentk.github.io/publication/scaling-creation-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Language (Re)modelling: Towards Embodied Language Understanding</title>
-      <link>https://ronentk.github.io/publication/tamari-2020-remodelling/</link>
-      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://ronentk.github.io/publication/tamari-2020-remodelling/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,20 @@
     <link>https://ronentk.github.io/authors/dafna-shahaf/</link>
       <atom:link href="https://ronentk.github.io/authors/dafna-shahaf/index.xml" rel="self" type="application/rss+xml" />
     <description>Dafna Shahaf</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Dafna Shahaf</title>
       <link>https://ronentk.github.io/authors/dafna-shahaf/</link>
     </image>
+    
+    <item>
+      <title>Scaling Creative Inspiration with Fine-Grained Functional Aspects of Ideas</title>
+      <link>https://ronentk.github.io/publication/scaling-creation-2021/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/publication/scaling-creation-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dyna-bAbI: unlocking bAbI&#39;s potential with dynamic synthetic benchmarking</title>
