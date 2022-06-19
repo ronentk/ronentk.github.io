@@ -5,12 +5,20 @@
     <link>https://ronentk.github.io/authors/ronen-tamari/</link>
       <atom:link href="https://ronentk.github.io/authors/ronen-tamari/index.xml" rel="self" type="application/rss+xml" />
     <description>Ronen Tamari</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Ronen Tamari</title>
       <link>https://ronentk.github.io/authors/ronen-tamari/</link>
     </image>
+    
+    <item>
+      <title>Communicating understanding of physical dynamics in natural language</title>
+      <link>https://ronentk.github.io/publication/cliphy-2022/</link>
+      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/publication/cliphy-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>From Users to (Sense)Makers: On the Pivotal Role of Stigmergic Social Annotation in the Quest for Collective Sensemaking</title>
