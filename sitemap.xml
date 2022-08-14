@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ronentk.github.io/talk/actinf_gueststream_0822/</loc>
+    <lastmod>2022-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ronentk.github.io/talk/</loc>
+    <lastmod>2022-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ronentk.github.io/</loc>
+    <lastmod>2022-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ronentk.github.io/publication_types/1/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
   </url>
@@ -44,11 +59,6 @@
   
   <url>
     <loc>https://ronentk.github.io/authors/ronen-tamari/</loc>
-    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -154,11 +164,6 @@
   
   <url>
     <loc>https://ronentk.github.io/post/</loc>
-    <lastmod>2021-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/talk/</loc>
     <lastmod>2021-05-05T00:00:00+00:00</lastmod>
   </url>
   
