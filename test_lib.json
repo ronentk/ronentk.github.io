@@ -1,1 +1,19 @@
-// testing
+{
+  "name": "Ronen's Library",
+  "url": "https://ronentk.github.io/test_lib.json",
+  "bio": "A running list of books I've read...",
+  "lists":[
+    {
+    "name": "Books Read",
+    "books":
+          [{
+        "title": "Protocols, Not Platforms: A Technological Approach to Free Speech",
+        "id": null,
+        "author": "Mike Masnick",
+        "link": "https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech",
+        "image": "null",
+        "date_finished": "12/27/2021",
+        "notes": "Entrance to quite a rabbit hole..."
+      }]
+    }]
+  }
