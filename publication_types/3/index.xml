@@ -5,12 +5,20 @@
     <link>https://ronentk.github.io/publication_types/3/</link>
       <atom:link href="https://ronentk.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>3</title>
       <link>https://ronentk.github.io/publication_types/3/</link>
     </image>
+    
+    <item>
+      <title>Making sense of science: open access science needs open access to scholarly sensemaking data</title>
+      <link>https://ronentk.github.io/publication/metasci-sensemaking-23/</link>
+      <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/publication/metasci-sensemaking-23/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Process-Level Representation of Scientific Protocols with a Text-Based Game Annotation Interface</title>
