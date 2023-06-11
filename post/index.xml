@@ -5,12 +5,34 @@
     <link>https://ronentk.github.io/post/</link>
       <atom:link href="https://ronentk.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://ronentk.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>LLMs as hostile epistemic environments</title>
+      <link>https://ronentk.github.io/post/llms-hostile-epistem-env/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/post/llms-hostile-epistem-env/</guid>
+      <description>&lt;p&gt;Originally posted to Twitter at &lt;a href=&#34;https://twitter.com/rtk254/status/1667868407486619652&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://twitter.com/rtk254/status/1667868407486619652&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Blog%20version%20ba4efd5119884102979f9b725fb4376e/Untitled.png&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;There is a follow up to &lt;a href=&#34;https://philpapers.org/archive/NGUHEL.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this (excellent!) piece&lt;/a&gt; waiting to be written about LLMs as “hostile epistemic environments”, or “epistemic junk food”. I don’t have time for that yet, so meanwhile just a few thoughts 🧵:&lt;/p&gt;
+&lt;p&gt;Hostile epistemic envs exploit our cognitive vulnerabilities and weaknesses, which are plentiful in an age where information overload is stretching cognition beyond its limits.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Blog%20version%20ba4efd5119884102979f9b725fb4376e/Untitled%201.png&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I have a hunch that LLMs, like conspiracy theories, work becasue they offer an intense dose of clarity/coherence, particularly valuable in an overwhelmingly complex world.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Blog%20version%20ba4efd5119884102979f9b725fb4376e/Untitled%202.png&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hostile epistemic envs share important similarities with hostile nutritional envs (junk food): the companies creating them may not be intentionally trying to harm us, they want $$ and harm is a side effect.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Blog%20version%20ba4efd5119884102979f9b725fb4376e/Untitled%203.png&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Creators of epistemic junk food will ofc say- “but we’re helping people”! A good heuristic might be - helping in the short or long term? Lonliness chatbots may alleviate loneliness like cigarettes relieve stress, but have negative side effects (for which corporations aren’t accountable) and shouldn’t be substitutes for more systemic approaches.&lt;/p&gt;
+&lt;p&gt;This isn’t to say that there aren’t any non-“junk-food” uses of LLMs - there are many useful applications of the technology. But the “fairtrade/sustainable” uses are still rare comparatively to the junk uses, and those less exploitative uses are harder to turn a profit with.&lt;/p&gt;
+&lt;p&gt;Despite their not-quite-intentional hostility, greed can make you do pretty awful stuff: today we shake our heads in disbelief that we were duped into thinking 7up for babies was not only ok, it was even wholesome. I hope that a few decades from now we’ll look back similarly at junk LLM products.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Blog%20version%20ba4efd5119884102979f9b725fb4376e/Untitled%204.png&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;However, with capitalism reaching deeper and deeper into our psyche in search of new territory to exploit, what will be left of us in a few decades is anyone’s guess 🤷&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>🔮Dark Research</title>
