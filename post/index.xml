@@ -5,12 +5,41 @@
     <link>https://ronentk.github.io/post/</link>
       <atom:link href="https://ronentk.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://ronentk.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Sensemaking and Science</title>
+      <link>https://ronentk.github.io/post/sci-sensemaking/</link>
+      <pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/post/sci-sensemaking/</guid>
+      <description>&lt;p&gt;(&lt;a href=&#34;https://twitter.com/rtk254/status/1695785300360847415&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Originally posted on Twitter&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;A lot has been written about how the traditional science model of publishing and peer review is broken. One connection I haven’t seen made is with the &lt;strong&gt;sensemaking&lt;/strong&gt; literature, which studies how people understand complex topics.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Webpage%20post%20727888c09ba8472fae72c87c1f9efd4d/Untitled.png&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Sensemaking is a powerful framework that has been used mainly for analyzing organizations and surprisingly less for scientific research. What is science if not a collective process for understanding our complex reality? Anyway, sensemaking really helps to see why the current traditional science model is broken, and also how we can improve things.&lt;/p&gt;
+&lt;p&gt;While not directly mentioned in the figure below, classical publishing and peer review are at the end stages of a nested, iterative multi-scale feedback loop. Information search, filtering, relating concepts, etc are all part of the larger sensemaking process.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Webpage%20post%20727888c09ba8472fae72c87c1f9efd4d/Untitled%201.png&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The sensemaking model shows us 2 important missing elements from trad-sci.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Publishing happens across diverse scales and formats, as demonstrated by the rapid rise of various &lt;a href=&#34;https://www.micropublication.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;micro&lt;/a&gt;/&lt;a href=&#34;https://nanopub.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nanopublishing&lt;/a&gt;/&lt;a href=&#34;https://oasis-lab.gitbook.io/roamresearch-discourse-graph-extension/fundamentals/what-is-a-discourse-graph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;discourse graph&lt;/a&gt; initiatives&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;Webpage%20post%20727888c09ba8472fae72c87c1f9efd4d/Untitled%202.png&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;For example, nanopublishing aims at the &amp;ldquo;smallest units of publishable information&amp;rdquo;; even someone declaring they’ve read a paper can be a nanopub!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Webpage%20post%20727888c09ba8472fae72c87c1f9efd4d/Untitled%203.png&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Feedback also happens across diverse scales and formats. This is why scientists spend so much time on social media- we don&amp;rsquo;t want to wait months for noisy peer reviews. Scientists posting on Twitter are actually nanopublishing but don’t know it yet!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;Webpage%20post%20727888c09ba8472fae72c87c1f9efd4d/Untitled%204.png&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;
+&lt;p&gt;That is a current blind spot in our scientific infrastructure! Social media networks are not open or FAIR, so are ill suited to host these “proto” nanopubs.&lt;/p&gt;
+&lt;p&gt;The sensemaking framework suggests that for micro/nanopub efforts to succeed, they’ll need to be embedded in effective social feedback networks.&lt;/p&gt;
+&lt;p&gt;The idea of social networks for scientists has &lt;a href=&#34;https://twitter.com/BrettButtliere/status/1609612797154828288&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;been around for a long time&lt;/a&gt;, &lt;a href=&#34;https://www.latimes.com/business/story/2023-08-25/column-scientists-used-to-love-twitter-thanks-to-elon-musk-theyre-giving-up-on-it&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;but with social media going FUBAR&lt;/a&gt;, IMO it’s high time to revisit these ideas and integrate them with the exciting progress on micro/nanopublishing&lt;/p&gt;
+&lt;p&gt;I recently presented these ideas at MetaScience 2023  - check out &lt;a href=&#34;https://ronentk.github.io/publication/metasci-sensemaking-23/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ronentk.github.io/publication/metasci-sensemaking-23/&lt;/a&gt; for paper/slides/etc! Still work in progress, and we&amp;rsquo;d love to engage with fellow sensemakers interested in this space!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>LLMs as hostile epistemic environments</title>
