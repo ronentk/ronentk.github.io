@@ -5,12 +5,20 @@
     <link>https://ronentk.github.io/</link>
       <atom:link href="https://ronentk.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ronen Tamari</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 22 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Ronen Tamari</title>
       <link>https://ronentk.github.io/</link>
     </image>
+    
+    <item>
+      <title>DeSci Sensemaking Networks</title>
+      <link>https://ronentk.github.io/talk/desci_boston_23/</link>
+      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/talk/desci_boston_23/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Sensemaking and Science Publishing</title>
