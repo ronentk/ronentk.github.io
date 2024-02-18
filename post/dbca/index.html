@@ -297,8 +297,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
   <link rel="canonical" href="https://ronentk.github.io/post/dbca/">
 
@@ -318,8 +318,8 @@
   <meta property="og:site_name" content="Ronen Tamari">
   <meta property="og:url" content="https://ronentk.github.io/post/dbca/">
   <meta property="og:title" content="Distribution Based Compositionality Assessment (DBCA) | Ronen Tamari">
-  <meta property="og:description" content="Blog post write-up of DBCA paper (Keysers et. al, 2020)"><meta property="og:image" content="https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Blog post write-up of DBCA paper (Keysers et. al, 2020)"><meta property="og:image" content="https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-10-19T00:00:00&#43;00:00">
@@ -360,7 +360,7 @@
     "name": "Ronen Tamari",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "Blog post write-up of DBCA paper (Keysers et. al, 2020)"
@@ -788,7 +788,7 @@
 
     <div class="article-style">
       <h1 id="background-compositional-generalizations">Background: Compositional Generalizations</h1>
-<p>Compositional generalization, or models' lack of it, is a hot topic in NLP right now. Compositional generalization (<a href="http://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/proseminars/Proseminar13/ConnectionistArchitecture.pdf" target="_blank" rel="noopener">Fodor &amp; Pylysyn, 1988</a>) refers to the ability to make &ldquo;infinite use of finite means&rdquo; and is a cornerstone of human intelligence in general, and in particular language use: humans can combine a finite set of discrete elements (such as words) in limitless ways to create new meanings. An oft-quoted <a href="https://arxiv.org/abs/1711.00350" target="_blank" rel="noopener">example</a> is that once humans learn the meaning of a new verb like &ldquo;dax&rdquo;, we effortlessly generalize to new novel combinations with known words, like &ldquo;dax twice&rdquo; or &ldquo;dax slowly&rdquo;. While crucial for more robust and efficient NLP, compositional generalization remains extremely challenging for state-of-the-art (SOTA) models, with a <a href="http://arxiv.org/abs/2007.08970" target="_blank" rel="noopener">recent paper</a> noting that despite the huge investment,</p>
+<p>Compositional generalization, or models&rsquo; lack of it, is a hot topic in NLP right now. Compositional generalization (<a href="http://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/proseminars/Proseminar13/ConnectionistArchitecture.pdf" target="_blank" rel="noopener">Fodor &amp; Pylysyn, 1988</a>) refers to the ability to make &ldquo;infinite use of finite means&rdquo; and is a cornerstone of human intelligence in general, and in particular language use: humans can combine a finite set of discrete elements (such as words) in limitless ways to create new meanings. An oft-quoted <a href="https://arxiv.org/abs/1711.00350" target="_blank" rel="noopener">example</a> is that once humans learn the meaning of a new verb like &ldquo;dax&rdquo;, we effortlessly generalize to new novel combinations with known words, like &ldquo;dax twice&rdquo; or &ldquo;dax slowly&rdquo;. While crucial for more robust and efficient NLP, compositional generalization remains extremely challenging for state-of-the-art (SOTA) models, with a <a href="http://arxiv.org/abs/2007.08970" target="_blank" rel="noopener">recent paper</a> noting that despite the huge investment,</p>
 <blockquote>
 <p>General ML architecture improvements yield incremental, if limited, improvements in compositional generalization settings.</p>
 </blockquote>
@@ -823,7 +823,7 @@
 <p>As mentioned, DBCA creates training and test sets which share <strong>similar</strong> atom distributions.</p>
 <h3 id="compound-distribution">Compound Distribution</h3>
 <p>For a sample set $T$, the <em>compound distribution,</em> $\mathcal{F}_{C}\left(T\right)$, is defined to be the frequency distribution of compounds in the set.</p>
-<p>In contrast to the atom distribution, we want the compound distribution to be divergent across train and test sets, in order to test models' ability to recombine known atoms in novel ways. To represent $\mathcal{F}_{C}\left(T\right)$, you can similarly imagine a long vector containing the frequency counts of each <em>compound</em> in $T$. Here we run into a problem though, due to combinatorial complexity considerations- the number of all possible compounds (sub-graphs) is generally exponential in the size of $T$.</p>
+<p>In contrast to the atom distribution, we want the compound distribution to be divergent across train and test sets, in order to test models&rsquo; ability to recombine known atoms in novel ways. To represent $\mathcal{F}_{C}\left(T\right)$, you can similarly imagine a long vector containing the frequency counts of each <em>compound</em> in $T$. Here we run into a problem though, due to combinatorial complexity considerations- the number of all possible compounds (sub-graphs) is generally exponential in the size of $T$.</p>
 <p>Therefore, for practical purposes, the compound distribution requires a more involved definition. Specifically, some reasoned method for selecting and counting the most interesting compounds must be employed. In CFQ, the chosen method was comprised of two steps:</p>
 <ul>
 <li>
@@ -832,9 +832,9 @@ branching factor up to 2, plus linear sub-graphs of all sizes (from personal cor
 </li>
 <li>
 <p>Candidate ranking: As written in sec. 2.1, the frequency of many of these sub-graphs will be highly correlated with their super-graphs, leading to the undesirable possibility of double counting sub-graphs. Accordingly, a further weighting step is carried out, by which a weight is computed for each $G\in\mathbb{G}$. This weight takes into account each occurrence of $G$ in the sample set, so the final weight (un-normalized probability) of $G$ is given by $W\left(G\right)=\sum_{R\in T}w\left(G,R\right)$. The weight per sample $R$, $w\left(G,R\right)$, is calculated by:</p>
-<p>$$w\left(G,R\right)=\max_{g\in\text{occ}\left(G,R\right)}\left(1-\max_{G':g\prec g'\in\text{occ}\left(G',R\right)}P\left(G'|G\right)\right)$$</p>
-<p>Let&rsquo;s unpack what&rsquo;s going on in this calculation (see also appendix L.4). $\text{occ}\left(G,R\right)$ is the set of all occurrences of sub-graph $G$ in sample $R$ (one sub-graph may appear multiple times). The $\prec$ denotes the strict sub-graph relation. $P\left(G'|G\right)$ is the empirical probability of $G'$ occurring as a super-graph of $G$ over the whole sample set $T$.  So for each such occurrence $g$, we look at all super-graphs of $g$ in $R$, and take the super-graph $G'$ which co-occurs most often with $G$ over $T$.</p>
-<p>Intuitively, $w\left(G,R\right)$ estimates how interesting $G$ is in the context of $R$. The higher the probability of some super-graph $G'$ co-occurring with $G$ across $T$, the less interesting $G$ is. So for each occurrence $g$, we find its weight by taking the complement of this maximum empirical probability. To calculate the weight of $G$, we take the weight of the maximally interesting occurrence (the outer max).</p>
+<p>$$w\left(G,R\right)=\max_{g\in\text{occ}\left(G,R\right)}\left(1-\max_{G&rsquo;:g\prec g&rsquo;\in\text{occ}\left(G&rsquo;,R\right)}P\left(G&rsquo;|G\right)\right)$$</p>
+<p>Let&rsquo;s unpack what&rsquo;s going on in this calculation (see also appendix L.4). $\text{occ}\left(G,R\right)$ is the set of all occurrences of sub-graph $G$ in sample $R$ (one sub-graph may appear multiple times). The $\prec$ denotes the strict sub-graph relation. $P\left(G&rsquo;|G\right)$ is the empirical probability of $G&rsquo;$ occurring as a super-graph of $G$ over the whole sample set $T$.  So for each such occurrence $g$, we look at all super-graphs of $g$ in $R$, and take the super-graph $G&rsquo;$ which co-occurs most often with $G$ over $T$.</p>
+<p>Intuitively, $w\left(G,R\right)$ estimates how interesting $G$ is in the context of $R$. The higher the probability of some super-graph $G&rsquo;$ co-occurring with $G$ across $T$, the less interesting $G$ is. So for each occurrence $g$, we find its weight by taking the complement of this maximum empirical probability. To calculate the weight of $G$, we take the weight of the maximally interesting occurrence (the outer max).</p>
 <p>This can be a little confusing, so let&rsquo;s make it more concrete with a small example. Consider a toy sample set $T=\left\{ R_{1},R_{2},R_{3}\right\}$ and some sample sub-graphs $\mathbb{G}=\left\{ G_{1},G_{2},&hellip;\right\}$  as depicted below.</p>
 <p><img src="media/dbca.png" alt="media/dbca.png"></p>
 <p>For this case, we would have $W\left(G_{1},R_{1}\right)=W\left(G_{1},R_{2}\right)=W\left(G_{1},R_{3}\right)=0$, since $G_1$ occurs only within the context of the super-graph $G_2$ across all samples. Conversely, $W\left(G_{2},R_{1}\right)=W\left(G_{2},R_{2}\right)=W\left(G_{2},R_{3}\right)=1$, since $G_2$ appears in a different context across $T$- there is no common super-graph of $G_2$ across all samples. These of course are extreme cases just to show the point of the weighting scheme, which</p>
@@ -844,7 +844,7 @@ branching factor up to 2, plus linear sub-graphs of all sizes (from personal cor
 <p><strong>Compound weight:</strong> Given the weights as defined above, we can calculate the un-normalized weight of a compound $G$ as $W\left(G\right)=\sum_{R\in T}W\left(G,R\right)$. We assume that $W\left(G,R\right)=0$ if $G$ doesn&rsquo;t occur in $R$.</p>
 <p>In practice, in CFQ the graphs in $\mathbb{G}$ are then sorted according to descending $W$ and the top 100,000 are kept.</p>
 <p><strong>Probability of a compound:</strong> To get the normalized probability, we can simply divide by the total sum over all of the weights for all compounds in the sample set:</p>
-<p>$$P\left(G\right)=\frac{W\left(G\right)}{\sum_{G'\in\mathbb{G}}W\left(G'\right)}$$</p>
+<p>$$P\left(G\right)=\frac{W\left(G\right)}{\sum_{G&rsquo;\in\mathbb{G}}W\left(G&rsquo;\right)}$$</p>
 <h3 id="divergence">Divergence</h3>
 <p>Now we have all of the definitions in place to define distance (or divergence) between our train and test splits. DBCA uses the Chernoff coefficient which yields a scalar between 0 and 1, given two distributions $P$ and $Q$: $C_{\alpha}\left(P\parallel Q\right)=\sum_{k}p_{k}^{\alpha}q_{k}^{1-\alpha}$. The more similar two distributions are, the closer this score will be to 1.</p>
 <p>We&rsquo;re measuring divergence though, so we take the complement to compute atom and compound divergences, as follows:
@@ -867,7 +867,7 @@ C_alpha_5 = np.dot(p**0.5, q**0.5) # -&gt; C_alpha_5 = 0.04
 </ul>
 <h1 id="generating-splits">Generating Splits</h1>
 <p>The DBCA paper presents a pretty straightforward way to generate splits with some desired atom and compound divergences. The basic idea is to start with some pool of samples $U$, pre-compute the weights $W\left(G,R\right)$ for all <a href="">considered sub-graphs</a>, and then iteratively add a new sample to the train/test sets such that $\mathcal{D}_{C}$ and $\mathcal{D}_{A}$ are closest to the desired values $d_a$, $d_c$ (while also maintaining the train/test set size ratio). The paper doesn&rsquo;t describe the greedy step explicitly, so in my implementation, in each iteration, I just add the sample minimizing the score function:</p>
-<p>$$S\left(V,W\right)=\left|\mathcal{D}_{C}\left(V\parallel W\right)-d_{c}\right|+\left|\mathcal{D}_{A}\left(V\parallel W\right)-d_{a}\right|$$</p>
+<p>$$S\left(V,W\right)=\left|\mathcal{D}_{C}\left(V\parallel W\right)-d_{c}\right|+\left|\mathcal{D}<em>{A}\left(V\parallel W\right)-d</em>{a}\right|$$</p>
 <p>Another issue is that since this is a greedy algorithm, the paper notes that random restarts may be required by removing samples at certain iterations. There are no further details on this, and I haven&rsquo;t yet incorporated it into my implementation.</p>
 <p>So let&rsquo;s look at the basic pseudocode to get a feel for the flow.</p>
 <h2 id="pseudocode">Pseudocode</h2>
@@ -904,7 +904,7 @@ C_alpha_5 = np.dot(p**0.5, q**0.5) # -&gt; C_alpha_5 = 0.04
 <li>The current approach addresses short question/answer pairs, I wonder how it would scale to larger and more complex graphs.</li>
 </ul>
 <h1 id="repo">Repo</h1>
-<p>Feel free to check out (and improve) my implementation at <a href="https://github.com/ronentk/dbca-splitter">https://github.com/ronentk/dbca-splitter</a> !</p>
+<p>Feel free to check out (and improve) my implementation at <a href="https://github.com/ronentk/dbca-splitter" target="_blank" rel="noopener">https://github.com/ronentk/dbca-splitter</a> !</p>
 
     </div>
 
@@ -1292,7 +1292,7 @@ C_alpha_5 = np.dot(p**0.5, q**0.5) # -&gt; C_alpha_5 = 0.04
     
     
     
-    <script src="/js/wowchemy.min.4c2bca31150ce93c5a5e43b8a50f22fd.js"></script>
+    <script src="/js/wowchemy.min.335d41a94006bda8436a50bf371c1c74.js"></script>
 
     
 

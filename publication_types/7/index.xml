@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | Ronen Tamari</title>
+    <link>https://ronentk.github.io/publication_types/7/</link>
+      <atom:link href="https://ronentk.github.io/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>7</title>
+      <link>https://ronentk.github.io/publication_types/7/</link>
+    </image>
+    
+    <item>
+      <title>&#39;What&#39;s my model inside of?&#39;: Exploring the role of environments for grounded natural language understanding (PhD Thesis)</title>
+      <link>https://ronentk.github.io/publication/tamari-thesis-2023/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/publication/tamari-thesis-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

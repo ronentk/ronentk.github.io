@@ -1,443 +1,273 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://ronentk.github.io/publication/tamari-thesis-2023/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronentk.github.io/publication_types/7/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronentk.github.io/authors/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronentk.github.io/categories/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronentk.github.io/categories/featured/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronentk.github.io/publication_types/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronentk.github.io/publication/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronentk.github.io/authors/ronen-tamari/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronentk.github.io/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ronentk.github.io/post/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/post/stig_data/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/</loc>
-    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/</loc>
     <lastmod>2023-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/john_ash_podcast_261023/</loc>
     <lastmod>2023-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/desci_boston_23/</loc>
     <lastmod>2023-10-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/post/sci-sensemaking/</loc>
     <lastmod>2023-08-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/nanopubs_110723/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/dweb_camp_2023/</loc>
     <lastmod>2023-06-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/post/llms-hostile-epistem-env/</loc>
     <lastmod>2023-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication_types/3/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/authors/</loc>
-    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/categories/</loc>
-    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/categories/featured/</loc>
-    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/metasci-sensemaking-23/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/publication_types/</loc>
-    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/publication/</loc>
-    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ronentk.github.io/authors/ronen-tamari/</loc>
-    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication_types/1/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/ashish-sabharwal/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/breakpoint-2022/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/dafna-shahaf/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/kyle-richardson/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/oren-sultan/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/reut-tsarfaty/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/actinf_gueststream_0822/</loc>
     <lastmod>2022-08-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/cliphy-2022/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/haoliang-wang/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/jane-yang/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/judy-fan/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/daniel-friedman/</loc>
     <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/users-to-makers-2022/</loc>
     <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/lauren-hebert/</loc>
     <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/william-fischer/</loc>
     <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/aviad-sar-shalom/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/dyna-babi-2021/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/nelson-liu/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/noam-kahlon/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/aniket-kittur/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/daniel-hershcovich/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/hyeonsu-kang/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/joel-chan/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/scaling-creation-2021/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/tom-hope/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/huji_seminar_0521/</loc>
     <lastmod>2021-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/post/dark_research/</loc>
     <lastmod>2021-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/alan-ritter/</loc>
     <lastmod>2021-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/fan-bai/</loc>
     <lastmod>2021-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/gabriel-stanovsky/</loc>
     <lastmod>2021-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/tamari-2020-process-eacl/</loc>
     <lastmod>2021-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/ucsd_0321/</loc>
     <lastmod>2021-03-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/aristo_0121/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/wordplay_2020/</loc>
     <lastmod>2020-12-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/post/notion/</loc>
     <lastmod>2020-12-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/tamari-2020-process-wp/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/naisys_1120/</loc>
     <lastmod>2020-11-09T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/post/dbca/</loc>
     <lastmod>2020-10-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/post/acl2020-blog/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/tau_seminar_0420/</loc>
     <lastmod>2020-04-30T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/chen-shani/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/tamari-2020-remodelling/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/miriam-petruck/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/omri-abend/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/biu_seminar_0320/</loc>
     <lastmod>2020-03-29T11:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/tamari-2020-ecological/</loc>
     <lastmod>2020-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/post/bac/</loc>
     <lastmod>2020-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/ai_week_1119/</loc>
     <lastmod>2019-11-18T15:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/stanovsky-tamari-2019-yall/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/hiroyuki-shindo/</loc>
     <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/tamari-2018/</loc>
     <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/yuji-matsumoto/</loc>
     <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/ds_meetup_0419/</loc>
     <lastmod>2019-04-19T18:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/talk/jerusml_meetup_0119/</loc>
     <lastmod>2019-01-03T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/asayag-2018/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/a.-asayag/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/amnon-shashua/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/cohen-2018-boosting/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/d.-yakira/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/g.-cohen/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/i.-grayevsky/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/m.-leshkowitz/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/nadav-cohen/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/o.-rottenstreich/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/r.-tamari/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/or-sharir/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/publication/sharir-2016-a/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/authors/admin/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ronentk.github.io/tags/</loc>
   </url>
-  
 </urlset>
