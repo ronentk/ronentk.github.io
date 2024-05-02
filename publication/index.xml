@@ -5,12 +5,20 @@
     <link>https://ronentk.github.io/publication/</link>
       <atom:link href="https://ronentk.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ronentk.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://ronentk.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Sensemaking Networks: Transforming Social Media into a Sensemaking Layer for Science</title>
+      <link>https://ronentk.github.io/publication/icssi-sensemaking-24/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ronentk.github.io/publication/icssi-sensemaking-24/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>&#39;What&#39;s my model inside of?&#39;: Exploring the role of environments for grounded natural language understanding (PhD Thesis)</title>
